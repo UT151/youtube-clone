@@ -1,0 +1,75 @@
+.header {
+  /* elements in a row */
+  display: flex;
+  padding: 0px 18px;
+  align-items: center;
+  /* the children of header should have space between */
+  justify-content: space-between;
+  /* stick on top header */
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: white;
+}
+
+.header_logo {
+  height: 25px;
+  margin: 20px;
+  object-fit: contain;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+}
+
+.header_centre {
+  display: flex;
+  align-items: center;
+  width: 35%;
+  height: 32px;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 0px;
+}
+
+.header_centre > input {
+  flex: 1;
+  /* for the i/p field to take max possible space  */
+  padding-left: 10px;
+  height: 30px;
+  border: 0px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.header_centre > input:focus {
+  outline: none;
+}
+
+.header_search {
+  width: 40px !important;
+  height: 32px !important;
+  background-color: #f2f2f2;
+  /* border-left: 1px solid lightgray; */
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  /* the icon shifts slightly above when enclosed w/in the Link component- vertical alignment */
+  vertical-align: middle;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+}
+
+.iconCursor {
+  cursor: pointer;
+}
+
+.header_icons {
+  margin-right: 20px;
+  width: 30px !important;
+  height: 30px !important;
+  cursor: pointer;
+}

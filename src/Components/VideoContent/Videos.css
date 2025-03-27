@@ -1,0 +1,12 @@
+.video_content {
+  /* 80% for contents */
+  flex: 0.8;
+  background-color: #f9f9f9;
+  padding: 0px 20px;
+  /* padding-bottom: 0; */
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}

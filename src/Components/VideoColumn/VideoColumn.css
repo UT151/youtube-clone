@@ -1,0 +1,17 @@
+.video_column {
+  cursor: pointer;
+}
+
+.video_column > img {
+  /* object-fit: contain; */
+  width: 90%;
+  height: 180px;
+  /* width: 280px; */
+  padding-left: 30px;
+  margin-bottom: 0;
+}
+
+.video_column > p {
+  padding-left: 30px;
+  margin-top: 0;
+}

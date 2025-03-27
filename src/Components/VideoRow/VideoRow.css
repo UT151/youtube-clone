@@ -1,0 +1,64 @@
+.video_search {
+  display: flex;
+  /* align-items: center; */
+}
+
+.video_search > img {
+  /* object-fit: contain ; */
+  height: 190px;
+  width: 320px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.search_text {
+  padding-left: 20px;
+  /* margin-bottom: 25px; */
+  padding-bottom: 50px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.search_p2 {
+  cursor: pointer;
+}
+
+.search_p1 > h4 {
+  margin: 0;
+  padding-top: 0;
+  margin-top: 0;
+  cursor: pointer;
+}
+
+.search_channel {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search_channel > h5 {
+  padding-left: 15px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.search_channelName {
+  color: #4d4d4d;
+}
+
+.search_channelName:hover {
+  color: black;
+}
+
+.verified_icon {
+  height: 16px !important;
+  width: 16px !important;
+  vertical-align: middle;
+  padding-bottom: 5px;
+  margin-left: 5px;
+}
+
+.search_description {
+  color: #4d4c4c;
+  cursor: pointer;
+}

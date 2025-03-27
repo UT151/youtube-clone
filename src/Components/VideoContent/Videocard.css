@@ -1,0 +1,44 @@
+.videocard {
+  margin-bottom: 30px;
+  width: 280px;
+  /* youtube standard  */
+}
+
+.video_thumbnail {
+  height: 170px;
+  width: 265px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.video_info {
+  display: flex;
+  /* align-items: center; */
+  margin-top: 10px;
+}
+
+.video_avatar {
+  height: 30px !important;
+  width: 30px !important;
+  /* margin-top: 0; */
+  cursor: pointer;
+}
+
+.video_text {
+  margin: 0px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.video_text > h3 {
+  font-size: 16px;
+  margin: 0px 0px;
+  padding: 0;
+}
+
+.video_text > p {
+  font-size: 14px;
+  color: gray;
+  margin: 2px 0px;
+  padding: 0;
+}
